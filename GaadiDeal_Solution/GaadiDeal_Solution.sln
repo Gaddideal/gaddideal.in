@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gaadideal.library", "gaadideal.library\gaadideal.library.csproj", "{28FFA243-242D-4B3A-A5B0-228D3F57B8A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gaadideal.auth", "gaadideal.auth\gaadideal.auth.csproj", "{F486357A-03C2-49DD-9927-D620672E93A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AUTH", "AUTH", "{745DEADB-F569-46A4-B179-5F57977CE98D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LIBRARY", "LIBRARY", "{F4719184-15D1-4DA7-845E-6C25F9FB9C8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEB", "WEB", "{475596F0-BE87-4AB4-B13B-898D1438C395}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "General", "General", "{7EFB87FB-8A2D-4E83-B11E-E7A236FF2593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{E78DF2B2-D1A8-4484-BEA4-DD1251810770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gaadideal.site", "gaadideal.site\gaadideal.site.csproj", "{7D0400D4-AC3C-46A0-820F-D8EE083C8A27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28FFA243-242D-4B3A-A5B0-228D3F57B8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FFA243-242D-4B3A-A5B0-228D3F57B8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FFA243-242D-4B3A-A5B0-228D3F57B8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FFA243-242D-4B3A-A5B0-228D3F57B8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F486357A-03C2-49DD-9927-D620672E93A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F486357A-03C2-49DD-9927-D620672E93A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F486357A-03C2-49DD-9927-D620672E93A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F486357A-03C2-49DD-9927-D620672E93A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E78DF2B2-D1A8-4484-BEA4-DD1251810770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E78DF2B2-D1A8-4484-BEA4-DD1251810770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E78DF2B2-D1A8-4484-BEA4-DD1251810770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E78DF2B2-D1A8-4484-BEA4-DD1251810770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0400D4-AC3C-46A0-820F-D8EE083C8A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0400D4-AC3C-46A0-820F-D8EE083C8A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0400D4-AC3C-46A0-820F-D8EE083C8A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0400D4-AC3C-46A0-820F-D8EE083C8A27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D0400D4-AC3C-46A0-820F-D8EE083C8A27} = {475596F0-BE87-4AB4-B13B-898D1438C395}
+		{28FFA243-242D-4B3A-A5B0-228D3F57B8A7} = {F4719184-15D1-4DA7-845E-6C25F9FB9C8C}
+		{F486357A-03C2-49DD-9927-D620672E93A1} = {745DEADB-F569-46A4-B179-5F57977CE98D}
+		{E78DF2B2-D1A8-4484-BEA4-DD1251810770} = {7EFB87FB-8A2D-4E83-B11E-E7A236FF2593}
+	EndGlobalSection
+EndGlobal
